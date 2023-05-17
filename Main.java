@@ -6,7 +6,7 @@ class Main {
     Scanner scan = new Scanner(System.in);
     int wybor;
     System.out.println(" 0 - zakonczenie programu, 1-wprowadz nowego studenta, 2-wypisac wszystkich studentow");
-    wybor = scan.nextInt();
+    wybor = scan.nextInt(); 
     switch(wybor) {
       case 0:
         System.exit(0);
